@@ -1,0 +1,137 @@
+{
+  "demo": true,
+  "updated_at": "2001-05-07T11:00:00Z",
+  "days": [
+    {
+      "date": "2001-05-01",
+      "sleep_minutes": 446,
+      "hrv_ms": 55,
+      "resting_hr_bpm": 61,
+      "body_battery": 69,
+      "steps": 5400,
+      "water_l": 1.65,
+      "weight_kg": 71.2
+    },
+    {
+      "date": "2001-05-02",
+      "sleep_minutes": 412,
+      "hrv_ms": 51,
+      "resting_hr_bpm": 62,
+      "body_battery": 64,
+      "steps": 7600,
+      "water_l": 1.8,
+      "weight_kg": null
+    },
+    {
+      "date": "2001-05-03",
+      "sleep_minutes": null,
+      "hrv_ms": null,
+      "resting_hr_bpm": 63,
+      "body_battery": 71,
+      "steps": 4650,
+      "water_l": null,
+      "weight_kg": null
+    },
+    {
+      "date": "2001-05-04",
+      "sleep_minutes": 455,
+      "hrv_ms": 57,
+      "resting_hr_bpm": 60,
+      "body_battery": 77,
+      "steps": 10250,
+      "water_l": 2.0,
+      "weight_kg": 71.0
+    },
+    {
+      "date": "2001-05-05",
+      "sleep_minutes": 431,
+      "hrv_ms": 53,
+      "resting_hr_bpm": 62,
+      "body_battery": 65,
+      "steps": 6100,
+      "water_l": null,
+      "weight_kg": null
+    },
+    {
+      "date": "2001-05-06",
+      "sleep_minutes": 463,
+      "hrv_ms": 58,
+      "resting_hr_bpm": 60,
+      "body_battery": 83,
+      "steps": 9800,
+      "water_l": 1.9,
+      "weight_kg": null
+    },
+    {
+      "date": "2001-05-07",
+      "sleep_minutes": 427,
+      "hrv_ms": 56,
+      "resting_hr_bpm": 61,
+      "body_battery": 70,
+      "steps": 7350,
+      "water_l": 1.75,
+      "weight_kg": 70.9
+    }
+  ],
+  "activities": [
+    {
+      "id": "demo-cycle",
+      "date": "2001-05-02",
+      "type": "cycling",
+      "distance_km": 18.4,
+      "duration_minutes": 57
+    },
+    {
+      "id": "demo-walk",
+      "date": "2001-05-04",
+      "type": "walking",
+      "distance_km": 3.4,
+      "duration_minutes": 41
+    },
+    {
+      "id": "demo-run",
+      "date": "2001-05-06",
+      "type": "running",
+      "distance_km": 4.2,
+      "duration_minutes": 29,
+      "route": [
+        [
+          0.01,
+          0.01
+        ],
+        [
+          0.012,
+          0.015
+        ],
+        [
+          0.017,
+          0.018
+        ],
+        [
+          0.021,
+          0.017
+        ],
+        [
+          0.024,
+          0.021
+        ],
+        [
+          0.019,
+          0.025
+        ],
+        [
+          0.014,
+          0.022
+        ],
+        [
+          0.009,
+          0.017
+        ],
+        [
+          0.01,
+          0.01
+        ]
+      ]
+    }
+  ]
+}

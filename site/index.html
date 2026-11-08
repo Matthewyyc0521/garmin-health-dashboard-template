@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>身体与运动 · 个人看板</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <header class="bar"><div class="bar-inner">
+    <strong class="brand"><span class="mark" aria-hidden="true"></span>身体与运动</strong>
+    <span id="source" class="source"></span>
+  </div></header>
+  <main>
+    <div class="heading"><div><h1>身体概览</h1><p id="sync" aria-live="polite">正在读取数据…</p></div>
+      <label class="date-label">查看日期<input type="date" id="anchor" disabled></label></div>
+    <p id="message" role="status" hidden></p>
+    <div id="dashboard" hidden>
+      <section aria-labelledby="health-title">
+        <div class="section-heading"><h2 id="health-title">近七日趋势</h2><span id="window"></span></div>
+        <div id="metrics" class="metrics"></div>
+      </section>
+      <section aria-labelledby="activity-title">
+        <div class="section-heading"><h2 id="activity-title">运动记录</h2><span id="count"></span></div>
+        <article class="activity">
+          <div id="activities"></div>
+          <div id="detail" aria-live="polite"></div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <template id="metric">
+    <article class="card">
+      <h3></h3><p class="reading"><strong></strong><span class="unit"></span></p>
+      <canvas class="trend" role="img"></canvas><p class="stat"></p>
+    </article>
+  </template>
+</body>
+</html>

@@ -1,0 +1,15 @@
+services:
+  collector:
+    build: .
+    user: "${COLLECTOR_UID:-65534}:${COLLECTOR_GID:-65534}"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,mode=1777
+    volumes:
+      - ./data:/app/data
+      - ./secrets/garmin-key:/run/secrets/garmin-key:ro
+    environment:
+      TZ: "${GARMIN_TIMEZONE:-Asia/Shanghai}"
+    command: ["--region", "${GARMIN_REGION:-cn}", "--key-file", "/run/secrets/garmin-key", "--latest-route"]
