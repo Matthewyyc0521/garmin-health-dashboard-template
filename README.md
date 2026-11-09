@@ -1,5 +1,9 @@
 # Garmin 个人健康与运动看板
 
+[English](README.en.md) | [简体中文](README.md)
+
+A local health and activity dashboard for Garmin Personal API data, with a fictional demo, Excel import/export, and optional scheduled collection on a Synology NAS. [Read the English setup guide](README.en.md).
+
 用一页查看最近七天的睡眠、夜间 HRV、静息心率、身体电量、步数、饮水量和体重。选中一次运动即可查看距离、用时和可用的 GPS 路线。看板在自己的电脑上运行，图表和轨迹均在浏览器本地绘制。
 
 ![虚构数据演示：七天趋势和一条示意路线](docs/preview.png)
